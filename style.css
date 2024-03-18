@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    border: none;
+    font-family: none;
+}
+h1{
+    color: white;
+}
+img{
+    width: 100%;
+}
+.container{
+    background-color: rgb(44, 62, 80);
+    max-width: 1320px;
+    height: 104px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+}
+.nav_item{
+    display: flex;
+    gap: 45px;
+    color: white;
+}
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(44, 62, 80);
+    height: 104px;
+}
+.hidden{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .hidden{
+        max-width: 990px;
+        display: flex;
+        border-radius: 5px;
+        color: white;
+        width: 86px;
+        height: 44px;
+        background-color: #1abc9c;
+        justify-content: center;
+        align-items: center;   
+    }
+    .nav_item{
+        display: none;
+    }
+}
+/*navbar end*/
+
+/*aqua end*/
+.aqua_img{
+    width: 53%;
+    height: 53%;
+    object-fit: cover;
+    margin-top: 15px;
+
+}
+.aqua{
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 105px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 14px;
+}
+.right{
+    width: 105px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 14px;
+}
+.aqua_icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.aqua_general{
+    max-width: 1320px;
+    height: 735px;
+    padding-bottom: 60px;
+}
+.aqua_head{
+    font-size: 62px;
+    font-weight: bolder;
+    color: white;
+}
+i{
+    color: white;
+}
+.aqua_text{
+    color: white;   
+    font-size: 28px;
+    text-align: center;
+}
+#icon_star{ 
+    font-size: 30px;
+}
+.aqua_check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    
+}
+@media only screen and (max-width: 800px){
+.aqua_img{
+    width: 54%;
+    height: 54%;
+   
+}
+.aqua_text{
+    color: white;
+    font-size: 23px;
+    
+}
+.aqua_head{
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+.left{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 14px;
+}
+.right{
+    width: 80px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 14px;
+}
+.aqua_icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+}
+.aqua_check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 17px;
+}
+}
+@media only screen and (max-width: 500px){
+
+.aqua_img{
+    width: 54%;
+    height: 54%;
+}
+.aqua_text{
+    color: white;
+    font-size: 15px;
+    
+}
+.aqua_head{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    
+}
+.left{
+    width: 60px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.right{
+    width: 60px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.aqua_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+}
+.aqua_check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top:115px;
+}
+#icon_star{
+   font-size: 20px;
+   margin-top: 8px;
+}
+}
+/*aqua end*/
+
+/*cards start*/
+.portfolia{
+    background-color: white;
+    height: 100vh;
+}
+.port_left{
+    width: 112px;
+    min-height: 4px;
+    background-color: rgb(44, 62, 80);
+}
+.port_right{
+    width: 112px;
+    min-height: 4px;
+    background-color: rgb(44, 62, 80);
+}
+.port_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 16px;
+}
+#port_icon{
+        font-size: 32px;
+}
+.port_head{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 52px;
+}
+.general_container img{
+    min-height: 256px;
+    max-width: 356px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+/* quare{
+    border-radius: 15px;
+    margin-left: 15px;
+    object-fit: cover;
+    width: 360px;
+    height: 260px;
+} */
+.img_hover{position: relative;
+
+}
+.img_hover img{
+    width: 100%;
+    height: 100%;
+}
+.img_hover:hover .overlay{
+    display: flex;
+}
+.general_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 65px;
+}
+.overlay i{
+    color: white;
+    font-size: 5em;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    background-color: #1abc9c;
+}
+@media only screen and (max-width:768px){
+   
+        
+         
+    
+    .about_text{
+        display: flex;
+      
+        flex-direction: column;
+    }
+       
+    
+}
+/*cards end*/
+
+/*about start*/
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-color: #1abc9c;
+    max-width: 1320px;
+    height: 750px;
+    padding-top: 88px;
+margin-top: 90px;
+}
+.about_general{
+    width: 100%;
+    min-height: 570px;
+    background-color: #1abc9c;
+    padding-top: 52px;
+    
+}
+.about_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    gap: 50px;
+    color: white;
+    
+}
+.about_icon_left{
+    width: 112px;
+    min-height: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.about_icon_right{
+    width: 112px;
+    min-height: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.about_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 25px;
+}
+.about_head_text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+#about_icon{
+    font-size: 32px;
+
+}
+.about_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1320px;
+    max-height: 456px;  
+}
+.text1{
+    width: 320px;
+    min-height: 60px;
+}
+.text2{
+    width: 320px;
+    min-height: 60px;
+}
+
+#about_down_icon{
+   font-size: 20px;
+   padding-right: 10px;
+   text-align: center;
+
+}
+.about_down_icon{
+    max-width: 234px;
+    min-height: 67px;
+    border-radius: 15px;
+    background-color: #1abc9c;
+    border: 2px solid white;
+    margin-top: 60px;
+    font-size: 21px;
+    color: white;
+
+}
+
+/*about end*/
+
+/*mail start*/
+.mail{  max-width: 1320px;
+  padding-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+}
+  
+
+.mail_left {
+width: 125px;
+height: 4px;
+background-color: rgb(44,62, 80);
+}
+.mail_right{  width: 125px;
+    height: 4px;
+    background-color: rgb(44, 62, 80);
+
+}
+.mail_head_text{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(44, 62, 80);
+}
+.mail_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1320px;
+    gap: 40px;
+    padding-top: 60px;
+
+}
+.form_in{
+    border-style: none;
+    font-size: 27px;
+    border-bottom: 1px solid grey;
+    min-height: 50px;
+    max-width: 415px;
+}
+.textarea{
+    border-style: none;
+    font-size: 27px;
+    text-underline-offset: 5px;
+    border-bottom: 1px solid grey;
+    min-height: 35px;
+    max-width: 337px;
+
+}
+.send_div{
+    width: 105px;
+    height: 70px;
+    border-radius: 10px ;
+    background-color: #1abc9c;
+    margin-right: 230px;
+    margin-top: 20px;
+
+    
+}
+.send_button{
+    width: 105px;
+    height: 70px;
+    border-radius: 10px ;
+    background-color: #1abc9c;
+
+}
+.send_word{ 
+    color: rgb(255, 255, 255);
+    font-size: 22px; 
+}
+.mail_container{
+    padding-top: 70px;
+}
+/*mail end*/
+
+/*bottom start*/
+.bottom{
+    max-width: 1320px;
+    background-color: rgb(44, 62, 80);
+    min-height: 290px;
+   padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom_general{
+    min-height: 250px;
+    max-width: 1100px;
+    background-color: rgb(44, 62, 80);
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    padding: 15px;
+    margin-top: 50px;
+    
+}
+.location{
+    max-width: 240px;
+    min-height: 50px;
+
+}
+.sosial{
+    max-width: 240px;
+    min-height: 50px;
+}
+.freelancer{
+    max-width: 350px;
+    min-height: 50px;
+}
+.sosial_icon{
+    font-size: 47px;
+    padding-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+@media only screen and (max-width: 800px) {
+.bottom_general{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/*bottom end*/
+
+/*footer start*/
+.footer{
+    max-width: 1320px;
+    min-height: 70px;
+    background-color: rgb(26,37,47);
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_general{
+    max-width: 300px;
+    min-height: 50px;
+    background-color: rgb(26,37,47);
+
+}
+.footer_word{
+    padding-top: 12px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+/*footer end*/
